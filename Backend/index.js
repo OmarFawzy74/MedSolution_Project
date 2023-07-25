@@ -17,7 +17,7 @@ const categories = require('./routes/Categories');
 const orders = require('./routes/Orders');
 
 /// Run the App
-app.listen(4000, "localhost", () => {
+app.listen(4000 || process.env.PORT, "localhost", () => {
     console.log("Server is Running");
 });
 
