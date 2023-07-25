@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.featureHeader {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.featureSectionHeader {
+    text-align: center;
+    margin-left: 370px;
+    inline-size: 1000px;
+    color: rgb(25, 150, 170);
+    margin-top: 50px;
+    position: relative;
+    right: 30px;
+}
+
+.grid-item p {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 145px;
+    inline-size: 265px;
+}
+
+.grid-item img {
+    height: 80px;
+    width: 80px;
+    margin: 60px 20px 30px 20px;
+}
+
+.first-feature {
+    position: relative;
+    left: 130px;
+}
+
+.second-feature {
+    position: relative;
+    left: 20px;
+}
+
+.third-feature {
+    position: relative;
+    right: 130px;
+}

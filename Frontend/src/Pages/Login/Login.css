@@ -1,0 +1,161 @@
+.login-form {
+    position: relative;
+    right: 50px;
+    bottom: 75px;
+}
+
+.modal-backdrop.fade {
+    width: 100%;
+    height: 900px;
+    opacity: 30%;
+}
+
+.login-test-btn {
+    width: 200px;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+.email-header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    inline-size: 100px;
+}
+
+.email-input {
+    border: 1px solid rgb(25, 150, 170) !important;
+    width: 350px;
+}
+
+.pass-input {
+    border: 1px solid rgb(25, 150, 170) !important;
+    width: 350px;
+}
+
+.modal-body {
+    height: 400px;
+}
+
+.g-1 {
+    margin-bottom: 30px !important;
+}
+
+.login-btn {
+    margin-top: 45px;
+    margin-left: 70px;
+    width: 200px !important;
+    height: 50px;
+    /* position: relative;
+    right: 160px; */
+    background-color: rgb(25, 150, 170);
+    border: none;
+    letter-spacing: 1.5px;
+}
+
+.login-btn-container {
+    width: 400px;
+}
+
+.login-btn:hover {
+    background-color: rgb(77, 193, 195) !important;
+    border: 1px solid rgb(77, 193, 195) !important;
+}
+
+.modal-dialog {
+    margin-top: 180px;
+    position: relative;
+    left: 5px;
+}
+
+.Header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 150, 170);
+}
+
+.icons-container {
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 250px;
+    left: 20px;
+    /* margin-top: 100px; */
+    /* position: relative;
+    top: 280px; */
+}
+
+.patient-ico {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(25, 150, 170);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.patient-ico h6 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.admin-ico h6 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.patient-ico:hover {
+    background-color: rgb(15, 98, 111);
+}
+
+.patient-ico img {
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.admin-ico {
+    margin-left: 95px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(25, 150, 170);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.admin-ico:hover {
+    background-color: rgb(15, 98, 111);
+}
+
+.admin-ico img {
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.login-section {
+    background-image: url("/public/images/16.jpg");
+    width: 100%;
+    height: 900px;
+    position: relative;
+    bottom: 40px;
+    object-fit: contain;
+}
+
+.line-container {
+    width: 490px;
+    position: relative;
+    top: 40px;
+    right: 62px;
+}
+
+
+.btn-close {
+    visibility: hidden;
+}

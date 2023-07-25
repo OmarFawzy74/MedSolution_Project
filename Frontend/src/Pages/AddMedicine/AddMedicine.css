@@ -1,0 +1,116 @@
+.AddMedicinePage {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+    
+  .AddMedicinePage h1{
+    color: rgb(25,150,170);
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* position: relative;
+    right: 490px; */
+    font-weight: bold;
+    line-height: 120px;
+  }
+     
+  .AddMedicine {
+    width: 50%;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+    box-shadow: 3px 5px 20px 5px #e9e9e9;
+    border-radius: 20px;
+    margin-bottom: 230px;
+  }
+    
+  .add-medicine-form {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    padding: 100px;
+  }
+  
+  .add-medicine-form .form-control {
+    border: none;
+  }
+  
+  .add-medicine-form input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 17px;
+    outline: none;
+  }
+  
+  .add-button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(77,193,195);
+    border: 1px solid rgb(77,193,195);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: rgb(25,150,170);
+  }
+  
+  .add-medicine-form h2 {
+    font-size: 20px;
+  }
+  
+  .cancel-button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(132, 132, 132);
+    color: #fff;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  
+  .cancel-button:hover {
+    background-color: rgb(96, 96, 96);
+  }
+  
+  .btn-container {
+    display: flex;
+    width: 600px;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .pn {
+    inline-size: 1000px;
+  }
+
+  .image-upload {
+    height: 50px !important;
+  }
+
+  .categories-header {
+    margin-bottom: 20px;
+  }
+
+  .select-category-form {
+    width: 300px;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }

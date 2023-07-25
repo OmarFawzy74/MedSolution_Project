@@ -1,0 +1,282 @@
+.footer-section {
+    background-color: rgb(0, 46, 53);
+    height: 255px;
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 18%;
+}
+
+.footer-content {
+    display: flex;
+    height: 210px;
+}
+
+/* .footer-container {
+    position: relative;
+    top: 30px;
+} */
+
+.footerHeadersContainer {
+    display: flex;
+    position: relative;
+    left: 200px;
+}
+
+.brandlogos {
+    display: flex;
+    height: 160px;
+}
+
+.paymentLogos {
+    position: relative;
+    right: 200px;
+    top: 100px;
+    display: flex;
+    height: 110px;
+}
+
+.socialLogos {
+    display: flex;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    height: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 46, 53);
+}
+
+.topFooter {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(25, 150, 170);
+}
+
+.firstLogo img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+}
+
+.secondLogo img {
+    width: 220px;
+    height: 100px;
+    position: relative;
+    left: 520px;
+    top: 90px;
+}
+
+.aramexLogo {
+    position: relative;
+    right: 40px;
+    top: 50px;
+    height: 60px;
+}
+
+.mastercardLogo {
+    position: relative;
+    left: 35px;
+    top: 45px;
+    height: 60px;
+}
+
+.visaLogo {
+    position: relative;
+    left: 100px;
+    top: 40px;
+    height: 60px;
+}
+
+.footerContent {
+    position: relative;
+}
+
+.healthLogo img {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 780px;
+    bottom: 100px;
+}
+
+.facebookLogo {
+    height: 100px;
+}
+
+.facebookLogo img {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.facebookLogo img:hover {
+    position: relative;
+    top: 0px;
+    transform:none;
+}
+
+.twitterLogo img {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    left: 50px;
+    top: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.twitterLogo {
+    height: 100px;
+}
+
+.twitterLogo img:hover {
+    position: relative;
+    top: 2px;
+    transform:none;
+}
+
+.instagramLogo img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 80px;
+    top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.instagramLogo {
+    height: 100px;
+}
+
+.instagramLogo img:hover {
+    position: relative;
+    transform:none;
+    top: 1px;
+}
+
+.youtubeLogo img {
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease-in-out;
+    bottom: 0px;
+    position: relative;
+    left: 105px;
+}
+
+.youtubeLogo {
+    height: 100px;
+}
+
+.youtubeLogo img:hover {
+    position: relative;
+    bottom: 4px;
+    transform:none;
+}
+
+.socialLogos {
+    position: relative;
+}
+
+.firstFooterHeader span {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    z-index: 1;
+}
+
+.secondFooterHeader a {
+    font-weight: 500;
+    position: relative;
+    top: 70px;
+    left: 75px;
+    font-size: 17.3px;
+    color: white;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondFooterHeader a {
+    text-decoration: none;
+}
+
+.secondFooterHeader a:hover {
+    position: relative;
+    transform:none;
+}
+
+.thirdFooterHeader a {
+    font-weight: 500;
+    position: relative;
+    top: 69px;
+    left: 140px;
+    font-size: 17.3px;
+    color: white;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.thirdFooterHeader a {
+    text-decoration: none;
+}
+
+.thirdFooterHeader a:hover {
+    position: relative;
+    transform:none;
+}
+
+.paymentLogos {
+    position: relative;
+}
+
+.footerHeadersContainer {
+    position: relative;
+}
+
+.heartLogo img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right: 140px;
+    bottom: 25px;
+    transition: none;
+}
+
+.heartLogo img:hover {
+    transform: none;
+}
+
+.copyright {
+    height: 20px;
+    position: relative;
+    top: 175px;
+    right: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.topFooterContent {
+    text-align: center;
+    position: relative;
+}
+
+.topFooterContent h1 {
+    letter-spacing: 3px;
+    font-family: Nunito;
+    font-size: 57px;
+    color: rgb(255, 255, 255);
+}
+
+.topFooterContent h5 {
+    position: relative;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+}

@@ -1,0 +1,120 @@
+.header {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(25, 150, 170);
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 150px;
+}
+
+.adminHeader-list {
+    position: relative;
+    left: 240px;
+    /* display: flex; */
+}
+
+.adminHeader-list li {
+    list-style-type: none;
+    float: left;
+}
+
+.adminHeader-list .hover-style a:hover {
+    color: rgb(11, 61, 69) !important;
+    background-color: rgb(77, 193, 195);
+    border-radius: 25px;
+}
+
+.adminHeader-list li a {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 60px 30px 56px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.admin-pic {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+.index {
+    margin-top: 100px;
+    position: relative;
+    left: 250px;
+    bottom: 48px;
+    /* color: rgb(255, 255, 255);
+    text-decoration: none; */
+}
+
+.index a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.index a:hover {
+    color: rgb(11, 61, 69);
+}
+
+.nav {
+    --bs-nav-link-hover-color: #ffffff;
+}
+
+.list-item {
+    color: rgb(123, 123, 123);
+}
+
+
+.dropdown-item {
+    background-color: rgb(153, 153, 153);
+}
+
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: rgb(153, 153, 153);
+
+    --bs-dropdown-link-active-color: rgb(153, 153, 153);
+    --bs-dropdown-link-active-bg: rgb(153, 153, 153);
+
+    --bs-dropdown-bg: rgb(153, 153, 153);
+    --bs-dropdown-border-color: rgb(153, 153, 153);
+}
+
+.admin-status-ico {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 185px;
+    top: 65px;
+}
+
+.log {
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

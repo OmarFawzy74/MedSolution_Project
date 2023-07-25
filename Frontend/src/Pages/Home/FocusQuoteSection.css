@@ -1,0 +1,56 @@
+.serviceContainer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 70px 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://wirxpharmacy.com/wp-content/uploads/2019/12/pharmacy-testimonial.jpg);
+}
+
+.serviceContent {
+    margin-right: 30px;
+}
+
+.serviceHeader {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.line {
+    width: 30%;
+    height: 3px;
+    border-radius: 25%;
+    background-color: rgb(31, 185, 208);
+    position: relative;
+    left: 575px;
+    margin-top: 25px;
+}
+
+.first-phrase {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.second-phrase {
+    text-align: center;
+    margin-left: 260px;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 22px;
+    inline-size: 1150px;
+}
+
+.footer {
+    color: rgb(31, 185, 208);
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 50px;
+}

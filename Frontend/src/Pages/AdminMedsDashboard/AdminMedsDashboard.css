@@ -1,0 +1,156 @@
+#root {
+    height: 500px;
+}
+
+.select-container {
+    margin-bottom: 285px;
+}
+
+.patient-meds-header h1 {
+    color: rgb(25,150,170);
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 120px;
+    /* position: relative;
+    right: 435px; */
+    margin-bottom: 300px;
+    margin-top: 100px;
+    margin-left: 670px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 100px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 150px;
+}
+
+
+.login-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.product-card {
+    box-shadow: -1px 5px 20px 0px #e8e8e8;
+    border-color: #e8e8e8;
+    border-radius: 15px;
+    font-family: Roboto;
+}
+
+.product-name {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.product-exp-date {
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 22px;
+    color: rgb(237, 40, 40);
+}
+
+.order-btn {
+    background-color: rgb(25,150,170);
+    border: rgb(25,150,170);
+    margin-left: 70px;
+    position: relative;
+    bottom: 0px;
+    transition: all 0.3 ease-in-out;
+}
+
+.order-btn:hover {
+    background-color: rgb(77,193,195);
+    border: rgb(77,193,195);
+    box-shadow: -1px 5px 20px 0px #d1d1d1;
+    transform: scale(1.05);
+}
+
+.product-card hr {
+    border-top: 2px solid rgb(134, 134, 134);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.add-medicine-btn {
+    height: 40px;
+    width: 170px;
+    background-color: rgb(25,150,170);
+    border: rgb(25,150,170);
+    margin-left: 70px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 210px;
+    left: 110px;
+    transition: all 0.3 ease-in-out;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.add-medicine-btn:hover {
+    background-color: rgb(77,193,195);
+    border: rgb(77,193,195);
+    box-shadow: -1px 5px 20px 0px #d1d1d1;
+    transform: scale(1.05);
+}
+
+.btns-container {
+    display: flexbox;
+}
+
+.delete-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 20px;
+    background-color: rgb(213, 30, 30);
+    border: rgb(25,150,170);
+    transition: all 0.3 ease-in-out;   
+}
+
+
+.update-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 30px;
+    background-color: rgb(25,150,170);
+    border: rgb(25,150,170);
+    transition: all 0.3 ease-in-out;   
+}
+
+.update-btn:hover {
+    background-color: rgb(77,193,195);
+    border: rgb(77,193,195);
+    box-shadow: -1px 5px 20px 0px #d1d1d1;
+    transform: scale(1.05);
+}
+
+.delete-btn:hover {
+    background-color: rgb(249, 36, 36);
+    border: rgb(77,193,195);
+    box-shadow: -1px 5px 20px 0px #d1d1d1;
+    transform: scale(1.05);
+}
+
+.load-ico-admin-page {
+    position: relative;
+    left: 580px;
+    bottom: 205px;
+}
+
+.err-msg-custom-2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 170px;
+}

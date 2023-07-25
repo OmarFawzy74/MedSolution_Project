@@ -1,0 +1,94 @@
+.infoSectionContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+    margin-bottom: 160px;
+}
+
+.firstInfoContent h1 {
+    margin-left: 0px;
+}
+
+.firstInfoColoredHeader {
+    position: relative;
+    left: 110px;
+    bottom: 55px;
+    color: rgb(25, 150, 170);
+}
+
+.firstInfoHeader {
+    position: relative;
+    top: 40px;
+    right: 25px;
+}
+
+.secondInfoColoredHeader {
+    position: relative;
+    left: 130px;
+    bottom: 55px;
+    color: rgb(25, 150, 170);
+}
+
+.secondInfoHeader {
+    position: relative;
+    right: 100px;
+    top: 40px;
+}
+
+.firstInfoContent img {
+    margin-left: 100px;
+}
+
+.firstInfoContent p {
+    text-align: center;
+    inline-size: 400px;
+    margin-left: 180px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.secondInfoContent p {
+    text-align: center;
+    inline-size: 400px;
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.thirdInfoContent p {
+    text-align: center;
+    inline-size: 400px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: 7px;
+}
+
+.thirdInfoColoredHeader {
+    position: relative;
+    left: 125px;
+    bottom: 55px;
+    color: rgb(25, 150, 170);
+}
+
+.thirdInfoHeader {
+    position: relative;
+    right: 105px;
+    top: 40px;
+}
+
+.secondInfoContent {
+    position: relative;
+    right: 70px;
+}
+
+.thirdInfoContent {
+    position: relative;
+    right: 100px;
+    top: 1;
+}
+
