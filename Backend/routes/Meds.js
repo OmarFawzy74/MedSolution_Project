@@ -213,7 +213,8 @@ router.get("",
             }
 
             medicine.map((medicine) => {
-                medicine.image_url = "http://" + req.hostname + ":4000/" + medicine.image_url;
+                // medicine.image_url = "http://" + req.hostname + ":4000/" + medicine.image_url;
+                medicine.image_url = "https://clear-moccasins-bull.cyclic.app/" + medicine.image_url;
             });
 
             res.status(200).json(medicine);
