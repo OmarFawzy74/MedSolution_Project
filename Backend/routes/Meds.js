@@ -58,7 +58,6 @@ router.post("",
                 })
             }
 
-            
 
             await query("insert into medicines set ?", medicine);
 
