@@ -23,7 +23,7 @@ const AdminMedsDashboard = () => {
 
     useEffect(() => {
         setMeds({...meds, loading: true})
-        axios.get("http://localhost:4000/meds", {
+        axios.get("https://sangria-python-toga.cyclic.app/meds", {
             headers: {
                 token: auth.token
             }
@@ -44,7 +44,7 @@ const AdminMedsDashboard = () => {
         e.preventDefault();
         const medicine_id = e.target.value;
 
-        axios.delete("http://localhost:4000/meds", {
+        axios.delete("https://sangria-python-toga.cyclic.app/meds", {
             params: {
                 id: medicine_id
             },

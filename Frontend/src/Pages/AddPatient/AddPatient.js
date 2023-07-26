@@ -22,7 +22,7 @@ const AddPatient = () => {
       const addPatient = (e) => {
         e.preventDefault();
         setPatient({...patient, loading: true, err: null});
-        axios.post("http://localhost:4000/patients", {
+        axios.post("https://sangria-python-toga.cyclic.app/patients", {
             name: patient.name,
             email: patient.email,
             password: patient.password,

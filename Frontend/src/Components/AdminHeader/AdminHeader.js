@@ -19,7 +19,7 @@ const AdminHeader = () => {
 
     const user_id = auth.id;
     
-    axios.post("http://localhost:4000/auth/logout", {
+    axios.post("https://sangria-python-toga.cyclic.app/auth/logout", {
       id: user_id
     })
     .then((resp) => {

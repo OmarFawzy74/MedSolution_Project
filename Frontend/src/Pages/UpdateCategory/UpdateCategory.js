@@ -22,7 +22,7 @@ const UpdateCategory = () => {
     e.preventDefault();
     setCategory({ ...category, loading: true, err: null });
     axios
-      .put("http://localhost:4000/categories/" + id, {
+      .put("https://sangria-python-toga.cyclic.app/categories/" + id, {
         name: category.name,
         description: category.description,
       },
@@ -48,7 +48,7 @@ const UpdateCategory = () => {
   useEffect(() => {
     setCategory({ ...category, loading: true });
     axios
-      .get("http://localhost:4000/categories", {
+      .get("https://sangria-python-toga.cyclic.app/categories", {
         params: {
           id: id,
         },

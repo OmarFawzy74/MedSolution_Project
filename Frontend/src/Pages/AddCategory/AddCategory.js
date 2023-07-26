@@ -20,7 +20,7 @@ const AddCategory = () => {
       const addCategory = (e) => {
         e.preventDefault();
         setCategory({...category, loading: true, err: null});
-        axios.post("http://localhost:4000/categories", {
+        axios.post("https://sangria-python-toga.cyclic.app/categories", {
             name: category.name,
             description: category.description
         },

@@ -21,7 +21,7 @@ const PatientList = () => {
 
   useEffect(() => {
       setPatients({...patients, loading: true})
-      axios.get("http://localhost:4000/patients", {
+      axios.get("https://sangria-python-toga.cyclic.app/patients", {
         headers: {
           token: auth.token
         }
@@ -39,7 +39,7 @@ const PatientList = () => {
   const deletePatient = (e) => {
     e.preventDefault();
     const patient_id = e.target.value;
-    axios.delete("http://localhost:4000/patients", {
+    axios.delete("https://sangria-python-toga.cyclic.app/patients", {
         params: {
             id: patient_id
         },

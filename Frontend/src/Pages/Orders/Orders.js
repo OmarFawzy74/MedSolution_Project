@@ -22,7 +22,7 @@ const Orders = () => {
 
   useEffect(() => {
       setOrders({...orders, loading: true})
-      axios.get("http://localhost:4000/orders/admin", {
+      axios.get("https://sangria-python-toga.cyclic.app/orders/admin", {
         headers: {
           token: auth.token
         }
@@ -39,7 +39,7 @@ const Orders = () => {
 
 
   const acceptOrder = (e) => {
-    axios.post("http://localhost:4000/orders/submitStatus", {
+    axios.post("https://sangria-python-toga.cyclic.app/orders/submitStatus", {
       id: e.target.value,
       status: "accepted"
     },
@@ -60,7 +60,7 @@ const Orders = () => {
 
   const declineOrder = (e) => {
     const orderId = e.target.value;
-    axios.post("http://localhost:4000/orders/submitStatus", {
+    axios.post("https://sangria-python-toga.cyclic.app/orders/submitStatus", {
       id: orderId,
       status: "declined"
     },

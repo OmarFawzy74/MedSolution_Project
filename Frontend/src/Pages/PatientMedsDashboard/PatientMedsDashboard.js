@@ -24,7 +24,7 @@ const PatientMedsDashboard = () => {
 
     useEffect(() => {
         setMeds({...meds, loading: true})
-        axios.get("http://localhost:4000/meds", {
+        axios.get("https://sangria-python-toga.cyclic.app/meds", {
             params: {
                 id: auth.id,
                 search: search,
@@ -76,7 +76,7 @@ const PatientMedsDashboard = () => {
       useEffect(() => {
         setCategories({ ...categories, loading: true, err: null });
         axios
-          .get("http://localhost:4000/categories", {
+          .get("https://sangria-python-toga.cyclic.app/categories", {
             headers:{
                 token: auth.token
             }

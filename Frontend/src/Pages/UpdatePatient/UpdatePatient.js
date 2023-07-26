@@ -23,7 +23,7 @@ const UpdatePatient = () => {
 
     useEffect(() => {
         setPatient({...patient, loading: true})
-        axios.get("http://localhost:4000/patients", {
+        axios.get("https://sangria-python-toga.cyclic.app/patients", {
             params : {
                 id: id
             },
@@ -45,7 +45,7 @@ const UpdatePatient = () => {
       const updatePatient = (e) => {
         e.preventDefault();
         setPatient({...patient, loading: true, err: null});
-        axios.put("http://localhost:4000/patients/" + id, {
+        axios.put("https://sangria-python-toga.cyclic.app/patients/" + id, {
             name: patient.name,
             email: patient.email,
             password: patient.password,

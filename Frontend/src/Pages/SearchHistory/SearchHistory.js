@@ -21,7 +21,7 @@ const SearchHistory = () => {
 
     useEffect(() => {
             setSearches({...Searches, loading: true})
-            axios.get("http://localhost:4000/patients/searches", {
+            axios.get("https://sangria-python-toga.cyclic.app/patients/searches", {
                 params: {
                     id: auth.id
                 },

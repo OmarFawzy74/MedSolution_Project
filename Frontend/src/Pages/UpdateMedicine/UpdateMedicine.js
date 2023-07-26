@@ -24,7 +24,7 @@ const UpdateMedicine = () => {
   useEffect(() => {
     setCategories({ ...categories, loading: true, err: null });
     axios
-      .get("http://localhost:4000/categories", {
+      .get("https://sangria-python-toga.cyclic.app/categories", {
         headers: {
           token : auth.token
         },
@@ -70,7 +70,7 @@ const UpdateMedicine = () => {
     formData.append("image_url", imageUpdate.current.files[0]);
 
     axios
-      .put("http://localhost:4000/meds/" + id, formData, {
+      .put("https://sangria-python-toga.cyclic.app/meds/" + id, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           token: auth.token
@@ -98,7 +98,7 @@ const UpdateMedicine = () => {
   useEffect(() => {
     SetMedicine({ ...Medicine, loading: true });
     axios
-      .get("http://localhost:4000/meds", {
+      .get("https://sangria-python-toga.cyclic.app/meds", {
         params: {
           medicine_id: id,
         },

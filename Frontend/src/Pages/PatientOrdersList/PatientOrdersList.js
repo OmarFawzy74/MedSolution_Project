@@ -21,7 +21,7 @@ const PatientOrdersList = () => {
       const user_id = auth.id
       setOrders({...orders, loading: true, user_id: user_id})
       // console.log(orders.user_id);
-      axios.get("http://localhost:4000/orders/patient", {
+      axios.get("https://sangria-python-toga.cyclic.app/orders/patient", {
         params: {
           id: user_id
         },

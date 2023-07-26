@@ -18,10 +18,11 @@ const CategoryList = () => {
     reload: 0
   });
 
+  // http://localhost:4000/categories
 
   useEffect(() => {
       setCategories({...categories, loading: true})
-      axios.get("http://localhost:4000/categories", {
+      axios.get("https://sangria-python-toga.cyclic.app/categories", {
         headers: {
           token: auth.token
         }
@@ -39,7 +40,7 @@ const CategoryList = () => {
     const deleteCategory = (e) => {
       e.preventDefault();
       const category_id = e.target.value;
-      axios.delete("http://localhost:4000/categories", {
+      axios.delete("https://sangria-python-toga.cyclic.app/categories", {
           params: {
               id: category_id
           },

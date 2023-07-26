@@ -22,7 +22,7 @@ const AddMedicine = () => {
   useEffect(() => {
     setCategories({ ...categories, loading: true, err: null });
     axios
-      .get("http://localhost:4000/categories", {
+      .get("https://sangria-python-toga.cyclic.app/categories", {
         headers: {
           token: auth.token,
         },
@@ -70,7 +70,7 @@ const AddMedicine = () => {
     formData.append("image", image.current.files[0]);
 
     axios
-      .post("http://localhost:4000/meds", formData, {
+      .post("https://sangria-python-toga.cyclic.app/meds", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           token: auth.token,

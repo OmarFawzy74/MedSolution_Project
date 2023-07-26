@@ -20,7 +20,7 @@ export const MedsCards = (props) => {
             patientId: auth.id
         }
         
-        axios.post("http://localhost:4000/orders", {
+        axios.post("https://sangria-python-toga.cyclic.app/orders", {
             medicine_id: Data.medicineId,
             patient_id: Data.patientId
         },

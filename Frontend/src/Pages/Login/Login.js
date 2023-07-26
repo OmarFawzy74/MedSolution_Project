@@ -33,7 +33,7 @@ const Login = () => {
   const adminLoginFun = (e) => {
     e.preventDefault();
     setAdminLogin({...adminLogin, loading: true, err: []});
-    axios.post("http://localhost:4000/auth/login", {
+    axios.post("https://sangria-python-toga.cyclic.app/auth/login", {
       email: adminLogin.email,
       password: adminLogin.password,
       type: 'admin'
@@ -61,7 +61,7 @@ const Login = () => {
   const patientLoginFun = (e) => {
     e.preventDefault();
     setPatientLogin({...patientLogin, loading: true, err: []});
-    axios.post("http://localhost:4000/auth/login", {
+    axios.post("https://sangria-python-toga.cyclic.app/auth/login", {
       email: patientLogin.email,
       password: patientLogin.password,
       type: 'patient'
