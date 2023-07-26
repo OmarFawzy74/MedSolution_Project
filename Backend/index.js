@@ -1,7 +1,6 @@
 /// Intialize Eaxpress
 const express = require("express");
 const app = express();
-const fs = require("fs");
 
 /// Global Middleware
 app.use(express.json());
@@ -19,7 +18,6 @@ const orders = require('./routes/Orders');
 
 /// Run the App
 app.listen(4000 || process.env.PORT, "localhost", () => {
-    fs.unlinkSync(__dirname + '/upload/1682975225420.png');
     console.log("Server is Running");
 });
 
