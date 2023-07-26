@@ -5,7 +5,7 @@ const app = express();
 /// Global Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname +'/upload'));
+app.use(express.static(__dirname +'/uploads'));
 const cors = require('cors');
 app.use(cors());
 
