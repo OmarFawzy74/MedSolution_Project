@@ -162,7 +162,7 @@ router.delete("",
             }
 
             //2- REMOVE Old Medicine IMAGE
-            fs.unlinkSync("upload/" + medicine[0].image_url);
+            fs.unlinkSync('./' + __dirname + '/upload' + medicine[0].image_url);
 
             await query("delete from medicines where id = ?", [medicine[0].id]);
             
