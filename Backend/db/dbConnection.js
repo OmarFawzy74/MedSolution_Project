@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-    host: 'db4free.net',
-    user: "omar_fawzy74",
-    password: "waNBp6d.Uh.gE2G",
-    database: "medsolution_db",
-    port: "3306"
+    host: process.env.DB_HOST,
+    user: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    port: process.env.PORT
 });
 
 //  host: "localhost",
