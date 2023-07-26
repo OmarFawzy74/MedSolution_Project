@@ -11,7 +11,7 @@ const fs = require("fs");
 
 // CREATE MEDICINE [ADMIN]
 router.post("",
-    adminAuthorize,
+    // adminAuthorize,
     upload.single("image"),
     body("name").isString().withMessage("pleaser enter a valid name!"),
     body("description").isString().withMessage("pleaser enter a valid description!"),
